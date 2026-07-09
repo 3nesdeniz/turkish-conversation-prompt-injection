@@ -206,8 +206,11 @@ agreement. `synthetic_curated` describes the source accurately.
 - hard-negative training for LLM-security classifiers
 - direct and indirect injection taxonomy experiments
 - red-team regression suites for Turkish LLM applications
-- benign/attack boundary analysis on ordinary and security-adjacent Turkish
-  requests
+- false-positive analysis on ordinary and security-adjacent Turkish requests
+
+Recommended reporting includes attack recall, precision, balanced accuracy and
+false-positive behavior on `benign_boundary`. These are evaluation dimensions,
+not performance claims attached to this dataset release.
 
 ## Out-of-scope uses
 

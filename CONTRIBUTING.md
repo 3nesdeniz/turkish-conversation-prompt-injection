@@ -33,7 +33,6 @@ Do not edit generated split files by hand. Run:
 ruby scripts/build_dataset.rb
 bash scripts/build_parquet.sh
 ruby scripts/validate_dataset.rb
-ruby scripts/baseline_nb.rb
 ```
 
 ## Review requirements

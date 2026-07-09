@@ -199,7 +199,6 @@ agreement. `synthetic_curated` describes the source accurately.
   number in the published rows
 - deterministic SHA-256 checksums in `metadata/checksums.sha256`
 - reproducible checks with `ruby scripts/validate_dataset.rb`
-- dependency-free diagnostic baseline in `scripts/baseline_nb.rb`
 
 ## Intended use
 
@@ -207,11 +206,8 @@ agreement. `synthetic_curated` describes the source accurately.
 - hard-negative training for LLM-security classifiers
 - direct and indirect injection taxonomy experiments
 - red-team regression suites for Turkish LLM applications
-- false-positive analysis on ordinary and security-adjacent Turkish requests
-
-Recommended metrics include macro F1, attack recall, precision, balanced
-accuracy and false-positive rate on `benign_boundary`. Raw accuracy alone is not
-appropriate because the dataset contains more benign than attack examples.
+- benign/attack boundary analysis on ordinary and security-adjacent Turkish
+  requests
 
 ## Out-of-scope uses
 
@@ -259,7 +255,6 @@ rebuilding.
 ruby scripts/build_dataset.rb
 bash scripts/build_parquet.sh
 ruby scripts/validate_dataset.rb
-ruby scripts/baseline_nb.rb
 sha256sum -c metadata/checksums.sha256
 ```
 

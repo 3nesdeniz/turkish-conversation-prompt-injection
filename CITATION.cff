@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "Turkish Conversation Prompt-Injection Dataset"
+type: dataset
+authors:
+  - family-names: Deniz
+    given-names: Enes
+    affiliation: AltaySec
+version: 1.0.1
+date-released: 2026-07-10
+license: CC-BY-4.0
+repository-code: "https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection"
+keywords:
+  - Turkish
+  - prompt injection
+  - LLM security
+  - AI security
+  - red teaming
+  - hard negatives
+abstract: >-
+  A curated Turkish dataset containing natural benign conversation,
+  security-adjacent hard negatives and direct, indirect and agent-oriented
+  prompt-injection attacks.

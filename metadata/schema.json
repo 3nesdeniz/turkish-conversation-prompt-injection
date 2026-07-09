@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection/raw/main/metadata/schema.json",
+  "title": "Turkish Conversation Prompt-Injection Dataset row",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "text",
+    "label",
+    "category",
+    "attack_family",
+    "source_context",
+    "pair_id",
+    "source_type",
+    "split"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^tcpi_(b[0-9]{4}|p[0-9]{4}_[ab])$"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "label": {
+      "type": "integer",
+      "enum": [0, 1]
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "benign_daily",
+        "benign_technical",
+        "benign_boundary",
+        "prompt_injection"
+      ]
+    },
+    "attack_family": {
+      "type": "string",
+      "enum": [
+        "none",
+        "direct_instruction_override",
+        "system_prompt_extraction",
+        "roleplay_jailbreak",
+        "authority_claim_bypass",
+        "sensitive_data_exfiltration",
+        "tool_action_abuse",
+        "indirect_content_injection",
+        "rag_context_poisoning",
+        "memory_context_poisoning",
+        "obfuscation_code_switching"
+      ]
+    },
+    "source_context": {
+      "type": "string",
+      "enum": [
+        "direct_user",
+        "agent_tool_request",
+        "conversation_memory",
+        "retrieved_document",
+        "web_page",
+        "email",
+        "document",
+        "code_comment",
+        "tool_output",
+        "calendar_event",
+        "image_ocr",
+        "support_ticket",
+        "pdf_document",
+        "spreadsheet_cell",
+        "chat_message",
+        "issue_description",
+        "transcript"
+      ]
+    },
+    "pair_id": {
+      "oneOf": [
+        {
+          "type": "string",
+          "pattern": "^pair_[0-9]{4}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "source_type": {
+      "const": "synthetic_curated"
+    },
+    "split": {
+      "type": "string",
+      "enum": ["train", "validation", "test"]
+    }
+  }
+}

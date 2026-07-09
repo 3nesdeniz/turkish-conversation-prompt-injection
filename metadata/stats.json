@@ -1,0 +1,55 @@
+{
+  "dataset": "Turkish Conversation Prompt-Injection Dataset",
+  "version": "1.0.1",
+  "schema_version": "1.0",
+  "language": "tr",
+  "total_rows": 750,
+  "pair_count": 150,
+  "split_counts": {
+    "train": 530,
+    "validation": 100,
+    "test": 120
+  },
+  "label_counts": {
+    "0": 600,
+    "1": 150
+  },
+  "category_counts": {
+    "benign_boundary": 150,
+    "benign_daily": 410,
+    "benign_technical": 40,
+    "prompt_injection": 150
+  },
+  "attack_family_counts": {
+    "authority_claim_bypass": 15,
+    "direct_instruction_override": 15,
+    "indirect_content_injection": 15,
+    "memory_context_poisoning": 15,
+    "obfuscation_code_switching": 15,
+    "rag_context_poisoning": 15,
+    "roleplay_jailbreak": 15,
+    "sensitive_data_exfiltration": 15,
+    "system_prompt_extraction": 15,
+    "tool_action_abuse": 15
+  },
+  "source_context_counts": {
+    "agent_tool_request": 30,
+    "calendar_event": 2,
+    "chat_message": 2,
+    "code_comment": 2,
+    "conversation_memory": 30,
+    "direct_user": 630,
+    "document": 2,
+    "email": 4,
+    "image_ocr": 2,
+    "issue_description": 2,
+    "pdf_document": 2,
+    "retrieved_document": 30,
+    "spreadsheet_cell": 2,
+    "support_ticket": 2,
+    "tool_output": 2,
+    "transcript": 2,
+    "web_page": 4
+  },
+  "build_seed": 20260709
+}

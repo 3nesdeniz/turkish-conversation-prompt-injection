@@ -5,6 +5,7 @@ type: dataset
 authors:
   - family-names: Deniz
     given-names: Enes
+    orcid: "https://orcid.org/0009-0006-9491-3565"
     affiliation: AltaySec
 version: 1.0.1
 date-released: 2026-07-10

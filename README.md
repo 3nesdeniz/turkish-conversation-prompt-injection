@@ -280,6 +280,7 @@ teaming.
 - **Author:** Enes Deniz
 - **Publisher:** Enes Deniz
 - **Affiliation:** AltaySec
+- **ORCID:** [`0009-0006-9491-3565`](https://orcid.org/0009-0006-9491-3565)
 
 - Website: [altaysec.com.tr/enes-deniz.html](https://altaysec.com.tr/enes-deniz.html)
 - GitHub: [github.com/3nesdeniz](https://github.com/3nesdeniz)
@@ -294,6 +295,7 @@ teaming.
   year      = {2026},
   version   = {1.0.1},
   publisher = {Enes Deniz},
+  orcid     = {0009-0006-9491-3565},
   note      = {Affiliation: AltaySec},
   url       = {https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection},
   license   = {CC BY 4.0}

@@ -10,6 +10,7 @@
 - **Author:** Enes Deniz
 - **Publisher:** Enes Deniz
 - **Affiliation:** AltaySec
+- **ORCID:** [`0009-0006-9491-3565`](https://orcid.org/0009-0006-9491-3565)
 - **License:** CC BY 4.0
 
 ## Motivation

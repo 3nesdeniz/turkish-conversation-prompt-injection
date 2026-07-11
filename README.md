@@ -39,6 +39,7 @@ configs:
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-FFD21E)](https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection)
 [![Version](https://img.shields.io/badge/version-1.0.1-1f6f5f)](https://github.com/3nesdeniz/turkish-conversation-prompt-injection/releases/tag/v1.0.1)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-555555)](https://creativecommons.org/licenses/by/4.0/)
+[![Evaluation: LLM Security Testbench](https://img.shields.io/badge/evaluation-LLM%20Security%20Testbench-0f766e)](https://github.com/3nesdeniz/llm-security-testbench)
 
 **Canonical dataset release:**
 [Hugging Face](https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection)
@@ -48,6 +49,13 @@ and validation scripts.
 
 A curated Turkish dataset for studying prompt-injection detection in natural
 conversation, security-sensitive requests and agentic workflows.
+
+For reproducible, pair-aware detector evaluation, use
+[LLM Security Testbench](https://github.com/3nesdeniz/llm-security-testbench).
+The accompanying Turkish technical note,
+[Prompt Injection Savunmaları Üretime Girmeden Nasıl Test Edilmeli?](https://medium.com/p/56801b23aa3f),
+explains why attack recall, false-positive behavior and matched boundary cases
+must be reviewed together.
 
 The dataset contains **750 unique examples**:
 

@@ -37,6 +37,7 @@ configs:
 # Turkish Conversation Prompt-Injection Dataset
 
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-FFD21E)](https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection)
+[![Interactive Space](https://img.shields.io/badge/interactive-Space-244b8f)](https://huggingface.co/spaces/3nesdeniz/turkish-prompt-injection-explorer)
 [![Version](https://img.shields.io/badge/version-1.0.1-1f6f5f)](https://github.com/3nesdeniz/turkish-conversation-prompt-injection/releases/tag/v1.0.1)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-555555)](https://creativecommons.org/licenses/by/4.0/)
 [![Evaluation: LLM Security Testbench](https://img.shields.io/badge/evaluation-LLM%20Security%20Testbench-0f766e)](https://github.com/3nesdeniz/llm-security-testbench)
@@ -46,6 +47,11 @@ configs:
 hosts the dataset viewer and downloads. This GitHub repository contains the
 authoring sources, release files, documentation, deterministic build pipeline
 and validation scripts.
+
+The [interactive dataset explorer](https://huggingface.co/spaces/3nesdeniz/turkish-prompt-injection-explorer)
+provides side-by-side inspection of all 150 controlled boundary pairs, complete
+row filtering, release coverage and methodology notes. It runs entirely in the
+visitor's browser and does not send prompt text to an external API.
 
 A curated Turkish dataset for studying prompt-injection detection in natural
 conversation, security-sensitive requests and agentic workflows.

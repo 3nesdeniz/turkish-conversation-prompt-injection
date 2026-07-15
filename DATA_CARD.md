@@ -11,6 +11,7 @@
 - **Publisher:** Enes Deniz
 - **Affiliation:** AltaySec
 - **ORCID:** [`0009-0006-9491-3565`](https://orcid.org/0009-0006-9491-3565)
+- **DOI:** [`10.5281/zenodo.21379389`](https://doi.org/10.5281/zenodo.21379389)
 - **License:** CC BY 4.0
 
 ## Motivation
@@ -165,6 +166,11 @@ mutations. Existing IDs must remain stable. Corrections should be recorded in
 `CHANGELOG.md` rather than silently rewriting released examples.
 
 ## Reproducibility
+
+The versioned release is identified by DOI
+[`10.5281/zenodo.21379389`](https://doi.org/10.5281/zenodo.21379389). Hugging
+Face remains the canonical dataset distribution; Zenodo provides the permanent
+release archive.
 
 - Authoring sources: `source/`
 - Deterministic builder: `scripts/build_dataset.rb`

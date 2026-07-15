@@ -37,6 +37,7 @@ configs:
 # Turkish Conversation Prompt-Injection Dataset
 
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-FFD21E)](https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21379389.svg)](https://doi.org/10.5281/zenodo.21379389)
 [![Interactive Space](https://img.shields.io/badge/interactive-Space-244b8f)](https://huggingface.co/spaces/3nesdeniz/turkish-prompt-injection-explorer)
 [![Version](https://img.shields.io/badge/version-1.0.2-1f6f5f)](https://github.com/3nesdeniz/turkish-conversation-prompt-injection/releases/tag/v1.0.2)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-555555)](https://creativecommons.org/licenses/by/4.0/)
@@ -46,7 +47,9 @@ configs:
 [Hugging Face](https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection)
 hosts the dataset viewer and downloads. This GitHub repository contains the
 authoring sources, release files, documentation, deterministic build pipeline
-and validation scripts.
+and validation scripts. Version 1.0.2 has the permanent DOI
+[`10.5281/zenodo.21379389`](https://doi.org/10.5281/zenodo.21379389) for its
+Zenodo release archive.
 
 The [interactive dataset explorer](https://huggingface.co/spaces/3nesdeniz/turkish-prompt-injection-explorer)
 provides side-by-side inspection of all 150 controlled boundary pairs, complete
@@ -301,12 +304,17 @@ teaming.
   year      = {2026},
   version   = {1.0.2},
   publisher = {Enes Deniz},
+  doi       = {10.5281/zenodo.21379389},
   orcid     = {0009-0006-9491-3565},
   note      = {Affiliation: AltaySec},
-  url       = {https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection},
+  url       = {https://doi.org/10.5281/zenodo.21379389},
   license   = {CC BY 4.0}
 }
 ```
+
+The DOI resolves to the versioned Zenodo archive. Hugging Face remains the
+[canonical dataset distribution](https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection)
+for the dataset viewer and normal downloads.
 
 ## License
 

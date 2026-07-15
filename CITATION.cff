@@ -9,6 +9,7 @@ authors:
     affiliation: AltaySec
 version: 1.0.2
 date-released: 2026-07-15
+doi: "10.5281/zenodo.21379389"
 license: CC-BY-4.0
 repository-code: "https://github.com/3nesdeniz/turkish-conversation-prompt-injection"
 url: "https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection"

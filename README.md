@@ -38,7 +38,7 @@ configs:
 
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-FFD21E)](https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection)
 [![Interactive Space](https://img.shields.io/badge/interactive-Space-244b8f)](https://huggingface.co/spaces/3nesdeniz/turkish-prompt-injection-explorer)
-[![Version](https://img.shields.io/badge/version-1.0.1-1f6f5f)](https://github.com/3nesdeniz/turkish-conversation-prompt-injection/releases/tag/v1.0.1)
+[![Version](https://img.shields.io/badge/version-1.0.2-1f6f5f)](https://github.com/3nesdeniz/turkish-conversation-prompt-injection/releases/tag/v1.0.2)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-555555)](https://creativecommons.org/licenses/by/4.0/)
 [![Evaluation: LLM Security Testbench](https://img.shields.io/badge/evaluation-LLM%20Security%20Testbench-0f766e)](https://github.com/3nesdeniz/llm-security-testbench)
 
@@ -299,7 +299,7 @@ teaming.
   title     = {Turkish Conversation Prompt-Injection Dataset},
   author    = {Deniz, Enes},
   year      = {2026},
-  version   = {1.0.1},
+  version   = {1.0.2},
   publisher = {Enes Deniz},
   orcid     = {0009-0006-9491-3565},
   note      = {Affiliation: AltaySec},

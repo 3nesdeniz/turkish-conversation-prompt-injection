@@ -3,7 +3,7 @@
 ## Dataset identity
 
 - **Name:** Turkish Conversation Prompt-Injection Dataset
-- **Version:** 1.0.1
+- **Version:** 1.0.2
 - **Language:** Turkish (`tr`)
 - **Modality:** Text
 - **Task:** Binary text classification with attack-family metadata

@@ -7,7 +7,7 @@ require "json"
 
 ROOT = File.expand_path("..", __dir__)
 SEED = 20_260_709
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 
 BASE_PATH = File.join(ROOT, "source", "base_benign.jsonl")
 PAIRS_PATH = File.join(ROOT, "source", "paired_cases.jsonl")

@@ -3,6 +3,16 @@
 All notable dataset changes are recorded here. Released example IDs remain
 stable across versions.
 
+## 1.0.2 - 2026-07-15
+
+- Prepared a permanent archival release with aligned GitHub, Hugging Face,
+  citation, ORCID, license and checksum metadata.
+- Corrected the citation metadata so the GitHub source repository and the
+  Hugging Face dataset distribution have distinct canonical URLs.
+- Removed the obsolete diagnostic-baseline material from the archival package.
+- No dataset rows, labels, splits or data-file checksums changed in this
+  release.
+
 ## 1.0.1 - 2026-07-10
 
 - Corrected the attribution metadata: Enes Deniz is the dataset author and

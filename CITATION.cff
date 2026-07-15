@@ -7,10 +7,11 @@ authors:
     given-names: Enes
     orcid: "https://orcid.org/0009-0006-9491-3565"
     affiliation: AltaySec
-version: 1.0.1
-date-released: 2026-07-10
+version: 1.0.2
+date-released: 2026-07-15
 license: CC-BY-4.0
-repository-code: "https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection"
+repository-code: "https://github.com/3nesdeniz/turkish-conversation-prompt-injection"
+url: "https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection"
 keywords:
   - Turkish
   - prompt injection

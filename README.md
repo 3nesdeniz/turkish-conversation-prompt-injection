@@ -41,7 +41,7 @@ configs:
 [![Interactive Space](https://img.shields.io/badge/interactive-Space-244b8f)](https://huggingface.co/spaces/3nesdeniz/turkish-prompt-injection-explorer)
 [![Version](https://img.shields.io/badge/version-1.0.2-1f6f5f)](https://github.com/3nesdeniz/turkish-conversation-prompt-injection/releases/tag/v1.0.2)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-555555)](https://creativecommons.org/licenses/by/4.0/)
-[![Evaluation: LLM Security Testbench](https://img.shields.io/badge/evaluation-LLM%20Security%20Testbench-0f766e)](https://github.com/3nesdeniz/llm-security-testbench)
+[![Evaluation: BenignTwin](https://img.shields.io/badge/evaluation-BenignTwin-0f766e)](https://github.com/3nesdeniz/benigntwin)
 
 **Canonical dataset release:**
 [Hugging Face](https://huggingface.co/datasets/3nesdeniz/turkish-conversation-prompt-injection)
@@ -60,7 +60,15 @@ A curated Turkish dataset for studying prompt-injection detection in natural
 conversation, security-sensitive requests and agentic workflows.
 
 For reproducible, pair-aware detector evaluation, use
-[LLM Security Testbench](https://github.com/3nesdeniz/llm-security-testbench).
+[BenignTwin](https://github.com/3nesdeniz/benigntwin) (`pip install benigntwin`):
+
+```bash
+benigntwin evaluate --dataset hf:3nesdeniz/turkish-conversation-prompt-injection \
+  --split all --default-language tr --detector hf:<owner>/<model>
+```
+
+Results for eight open detectors on this dataset are published in the
+[BenignTwin results](https://github.com/3nesdeniz/benigntwin/blob/main/results/README.md).
 The accompanying Turkish technical note,
 [Prompt Injection Savunmaları Üretime Girmeden Nasıl Test Edilmeli?](https://medium.com/p/56801b23aa3f),
 explains why attack recall, false-positive behavior and matched boundary cases
